@@ -1,0 +1,76 @@
+html {
+  background-image: url(image/fundo.png);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main {
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.header {
+  font-size: 30px;
+}
+
+.planetas-title {
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.div-planetas {
+  display: flex;
+  flex-direction: row;
+}
+
+.div-planetas p {
+  font-size: 20px;
+}
+
+.div-planetas img {
+  width: 100%;
+  max-width: 90%;
+  transition: all 0.5s;
+}
+
+/* MISSIONS */
+
+.mission-p {
+  border-bottom: 1px solid white;
+}
+
+.flex {
+  display: inline-block;
+  margin: 50px;
+}
+
+.mission {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgb(43, 43, 43);
+  margin: 10px;
+  width: 200px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.missoes-title {
+  font-size: 30px;
+}
+
+/* .mission:last-child {
+  border: none;
+
+} */
+
+.planetas img:hover {
+  transform: scale(1.1)rotate(20deg);
+  cursor: pointer;
+}
